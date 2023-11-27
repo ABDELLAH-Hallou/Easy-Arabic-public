@@ -1,0 +1,190 @@
+.matches-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+  }
+  
+  .match {
+    width: 100%;
+    border: 3px solid #620042;
+    padding: 20px ;
+    margin: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    background-color:  white;
+    
+    
+  }
+
+  .match_info {
+    display: flex;
+    flex-direction: row;
+    gap:300px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .match h2 {
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+  }
+  
+  .match-details p {
+    margin: 10px 0;
+  }
+  
+  .match-details strong {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .flag {
+
+  width: 50px;
+  height: 50px;
+  
+  background-size: cover;
+  background-position: center;
+
+  }
+
+  .organise_match {
+   display: flex;
+   flex-direction: row;
+   margin-left: 100px;
+  
+
+  }
+
+  .stad {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border:3px solid #620042 ;
+    width: 70px;
+    height: 70px;
+  }
+
+  @media(max-width: 1300px){
+    .match_info {
+      /* Change the flex direction to a column on small screens */
+      gap: 200px;
+    }
+    .organise_match{
+      margin-left: 0px;
+    }
+
+  }
+
+  @media(max-width: 1100px){
+    .match_info {
+      /* Change the flex direction to a column on small screens */
+      gap: 100px;
+    }
+    .organise_match{
+      margin-left: 0px;
+    }
+
+  }
+  @media (max-width: 700px) {
+    .match_info {
+      flex-direction: column; /* Change the flex direction to a column on small screens */
+      gap: 20px;
+    }
+    .organise_match{
+      margin-left: 0px;
+    }
+  }
+
+  .featured-image {
+    
+    
+    object-fit: cover;
+  }
+  
+  .logo_wc {
+
+    width: 100px; /* Set the width to 50% of its original size */
+  margin: 0 auto;
+    
+  }
+  
+  .vs {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #620042;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid #620042 ;
+    border-radius: 10px;
+   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+    transform: rotate(90deg) scale(1.2);  
+    text-align: center;
+  display: flex; 
+  align-items: center; 
+  line-height: 1;
+    
+  }
+  
+  .datetime {
+    display: flex;
+    flex-direction: row;
+float: left;
+  }
+  .stad_ref {
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: row;
+    gap: 40px; 
+  }
+
+  .p_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #620042;
+    text-align: center;
+    width: 50px;
+    flex-direction: column;
+    font-weight: bold;
+
+  }
+
+  .stad_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #620042;
+    text-align: center;
+    width: 70px;
+    flex-direction: column;
+    font-weight: bold;
+
+
+  }
+  
+  .equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+  }
+
+  .i2022 {
+width: 100px;
+height: 100px;
+
+margin: auto; 
+
+  }
+
+  .zid2022 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
