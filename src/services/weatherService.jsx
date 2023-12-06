@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import Axios from "axios";
 const API_KEY = process.env.WAPI_KEY;
-const BASE_URL = "https://api.openweathermap.org/data/2.5";c
+const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 //this function gets weather data
 const getWeatherData = async (infoType, searchParams) => {
